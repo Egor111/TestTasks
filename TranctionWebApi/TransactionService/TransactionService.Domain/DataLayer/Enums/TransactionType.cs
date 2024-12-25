@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TransactionService.Domain.DataLayer.Enums
+﻿namespace TransactionService.Domain.DataLayer.Enums
 {
     public enum TransactionType
     {
-        
+        CreditTransaction,
+        DebitTransaction
     }
 }

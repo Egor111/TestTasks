@@ -4,11 +4,11 @@ using TransactionService.Domain.DataLayer.Enums;
 
 namespace TransactionService.Domain.DataLayer.Entities
 {
-    public class Transaction : BaseEntity, ITransaction
+    public class TransactionEntity : BaseEntity, ITransaction
     {
         public Guid ClientId { get; set; }
 
-        public virtual Client Client { get; set; }
+        public virtual ClientEntity Client { get; set; }
 
         public DateTime DateTime { get; set; }
         public decimal Amount { get; set; }

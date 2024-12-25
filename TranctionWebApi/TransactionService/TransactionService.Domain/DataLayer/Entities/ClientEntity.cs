@@ -2,7 +2,7 @@
 
 namespace TransactionService.Domain.DataLayer.Entities
 {
-    public class Client : BaseEntity
+    public class ClientEntity : BaseEntity
     {
         /// <summary>
         /// Баланс

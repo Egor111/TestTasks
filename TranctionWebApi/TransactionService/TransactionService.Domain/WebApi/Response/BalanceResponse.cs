@@ -2,6 +2,8 @@
 {
     public class BalanceResponse
     {
-        public decimal Balance { get; set; }
+        public decimal ClientBalance { get; set; }
+
+        public DateTime BalanceDateTime { get; set; }
     }
 }
